@@ -123,12 +123,4 @@ fig = go.Figure(go.Indicator(
     }
 ))
 
-fig.add_annotation(
-    text="The number between the gauge represents the probability that an individual uses LinkedIn",
-    x=0.5, y=-0.2, 
-    showarrow=False,
-    font=dict(size=16)
-)
-
 st.plotly_chart(fig)
-
