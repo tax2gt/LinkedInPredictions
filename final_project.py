@@ -69,3 +69,5 @@ lr.fit(X_train, y_train)
 
 prob_42 = predict_linkedin_usage(lr, income=8, education=7, parent=0, married=1, female=1, age=42)
 print(f"Probability of LinkedIn usage (42 years old): {prob_42:.2f}")
+
+#hello
